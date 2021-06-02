@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+}
+
+h1{
+    font-size: 4rem;
+    color: rgb(254,242,191);
+    font-family: 'VT323', monospace;
+}
+
+
+.container-fluid{
+    text-align: center;
+    padding: 3% 5% 5%;
+    background-color: rgb(1,31,63);
+}
+.game-container{
+    padding: 3% 20%; 
+}
+
+.button{
+    width: 11rem;
+    height: 11rem;
+    margin: 3% 2%;
+    border-radius: 15%;
+    border: 8px solid black; 
+}
+
+
+#green{
+    background-color: green;
+}
+
+#red{
+    background-color: red;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#blue{
+    background-color: blue;
+}
+
+/* javascript */
+
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
